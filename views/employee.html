@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="../css/assets/img/Logo_Module_TiengViet_White.66947422.svg"
+      type="image/x-icon"
+    />
+    <title>Nhân viên</title>
+    <link rel="stylesheet" href="../css/views/employee.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-wrapper">
+          <div class="header-left">
+            <div class="header-option"></div>
+            <div class="header-title">
+              <div class="header-text">
+                CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC
+              </div>
+              <div class="header-left-icon"></div>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="header-right-icon"></div>
+            <div class="header-author">
+              <div class="header-author-avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1677856216846-596a3d6d869e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt=""
+                  class="author-img"
+                />
+              </div>
+              <div class="header-author-name">Nguyen Van Manh</div>
+            </div>
+            <div class="header-right-caret"></div>
+          </div>
+        </div>
+      </header>
+      <menu>
+        <div class="menu-wrapper">
+          <div class="menu-title">
+            <a href="#" class="menu-title-icon"></a>
+            <a href="#" class="menu-logo">
+              <img
+                src="https://actappg2.misacdn.net/img/Logo_Module_TiengViet_White.66947422.svg"
+                alt=""
+                class="img-icon"
+              />
+            </a>
+          </div>
+          <div class="menu-list">
+            <ul>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Tổng quan</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Tiền mặt</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Tiền gửi</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Mua hàng</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Bán hàng</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Quản lý hoá đơn</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Kho</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Công cụ dụng cụ</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Tài sản cố định</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Thuế</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Giá thành</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Tổng hợp</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-list-icon"></div>
+                <div class="menu-list-desc">Ngân sách</div>
+              </li>
+              <li class="menu-item">
+                <div class="icon-wrapper">
+                  <div class="menu-list-icon"></div>
+                </div>
+                <div class="menu-list-desc">Báo cáo</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </menu>
+      <div class="content">
+        <div class="page-wrapper">
+          <div class="page-title">
+            <h1 class="page-heading">Nhân viên</h1>
+            <button class="btn btn--primary">Thêm mới nhân viên</button>
+          </div>
+          <div class="page-main">
+            <div class="table">
+              <div class="table-toolbar">
+                <div class="toolbar-group">
+                  <div class="toolbar-item">
+                    <input
+                      type="text"
+                      class="input input--icon"
+                      placeholder="Tìm theo mã, tên nhân viên"
+                    />
+                    <div class="input-icon"></div>
+                  </div>
+                  <button class="btn--refresh"></button>
+                </div>
+              </div>
+              <div class="table-container">
+                <table class="tbEmployeeList">
+                  <thead>
+                    <tr>
+                      <th>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </th>
+                      <th class="text-align--left">MÃ NHÂN VIÊN</th>
+                      <th class="text-align--left">TÊN NHÂN VIÊN</th>
+                      <th class="text-align--left">GIỚI TÍNH</th>
+                      <th class="text-align--left">NGÀY SINH</th>
+                      <th class="text-align--left">SỐ CMND</th>
+                      <th class="text-align--left">CHỨC DANH</th>
+                      <th class="text-align--left">TÊN ĐƠN VỊ</th>
+                      <th class="text-align--left">SỐ TÀI KHOẢN</th>
+                      <th class="text-align--left">TÊN NGÂN HÀNG</th>
+                      <th class="text-align--left">CHI NHÁNH TK NGÂN HÀNG</th>
+                      <th class="text-align--left">CHỨC NĂNG</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="checkbox"
+                          name=""
+                          id=""
+                          class="table-checkbox"
+                        />
+                      </td>
+                      <td class="text-align--left">00012</td>
+                      <td class="text-align--left">Nguyễn Văn Liệt</td>
+                      <td class="text-align--left">Nam</td>
+                      <td class="text-align--left">31/12/1969</td>
+                      <td class="text-align--left">0022242357</td>
+                      <td class="text-align--left">Trưởng Nhóm</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">003123</td>
+                      <td class="text-align--left">VCB</td>
+                      <td class="text-align--left">CÔNG TY CỔ PHẦN MISA</td>
+                      <td class="text-align--left">Sửa</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="table-paging">
+                <div class="paging">
+                  <div class="paging-left">Tổng số: <b>100</b> nhân viên</div>
+                  <div class="paging-right">
+                    <div class="paging-pagesize">
+                      <span>Nhân viên trang</span>
+                      <div class="pagesize-cbx">
+                        <input type="text" />
+                        <div class="pagesize-data" hidden>
+                          <a
+                            href="#"
+                            class="pagesize-item pagesize-item--selected"
+                          >
+                            <div class="pagesize-item-text">10</div>
+                            <div class="pagesize-item-icon"></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="paging-index">Từ <b>1-100</b> bản ghi</div>
+                    <div class="paging-action">
+                      <button class="paging-button paging-button-prev"></button>
+                      <button class="paging-button paging-button-next"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

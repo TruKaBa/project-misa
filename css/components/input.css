@@ -1,0 +1,55 @@
+input {
+  display: inline-block;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #e0e0e0;
+  transition: border-color 0.25s linear;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: var(--primary-color);
+}
+
+/* .input-icon {
+  position: relative;
+}
+
+.input-icon::after {
+  content: "";
+  position: absolute;
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -568px -76px;
+  width: 24px;
+  height: 24px;
+
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.toolbar-item {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -425px -33px;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input--icon {
+  padding-right: 6rem;
+  height: 36px;
+}
+
+.input--icon:hover + .input-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -1041px -89px;
+}
+
+.input--icon:hover {
+  background-color: #F6F6F6;
+}

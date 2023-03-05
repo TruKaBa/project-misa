@@ -1,0 +1,149 @@
+.table-container,
+.tbEmployeeList {
+  width: 100%;
+}
+
+.tbEmployeeList th {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+  text-align: left;
+  padding-left: 14px;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.text-align--left {
+  text-align: left;
+}
+
+.tbEmployeeList th {
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.table-container {
+  margin-top: 2rem;
+  flex: 1
+}
+
+.table-container td {
+  height: 40px;
+  padding: 0 14px;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 1px solid #e0e0e0;
+}
+
+.tbEmployeeList th > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbEmployeeList thead tr {
+  height: 32px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align--center {
+  text-align: center;
+}
+
+.tbEmployeeList th:first-child {
+  border-left: 0;
+}
+
+.tbEmployeeList td:first-child {
+  border-left: 0;
+}
+.tbEmployeeList th:last-child {
+  border-right: 0;
+}
+
+.tbEmployeeList td:last-child {
+  border-right: 0;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main {
+  flex: 1;
+}
+
+.table {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+
+            <div class="table-paging">
+                <div class="paging">
+                  <div class="paging-left">Tổng số: <b>100</b> nhân viên</div>
+                  <div class="paging-right">
+                    <div class="paging-pagesize">
+                      <span>Nhân viên trang</span>
+                      <div class="pagesize-cbx">
+                        <input type="text" />
+                        <div class="pagesize-date">
+                          <a
+                            href="#"
+                            class="pagesize-item pagesize-item--selected"
+                          >
+                            <div class="pagesize-item-text">10</div>
+                            <div class="pagesize-item-icon"></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="paging-index">Từ <b>1-100</b> bản ghi</div>
+                    <div class="paging-action">
+                      <button class="paging-button paging-button-prev"></button>
+                      <button class="paging-button paging-button-next"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+*/
+
+.paging {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paging-right {
+  display: flex;
+  align-items: center;
+}
+
+.paging-pagesize {
+  display: flex;
+  align-items: center;
+}
+
+.paging-left b {
+  font-weight: 700;
+}
+
+
+.tbEmployeeList {
+  border-bottom: 1px solid #E0E0E0;
+}

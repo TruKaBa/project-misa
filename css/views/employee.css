@@ -1,0 +1,65 @@
+@import url("../base/reset.css");
+@import url("../base/variables.css");
+@import url("../components/button.css");
+@import url("../components/combobox.css");
+@import url("../components/table.css");
+@import url("../components/input.css");
+
+/* Import layout */
+@import url("../layout/header.css");
+@import url("../layout/menu.css");
+@import url("../layout/content.css");
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: notosan;
+  src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+
+* {
+  font-family: notosan;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: notosan;
+  font-size: 14px;
+  line-height: 18px;
+  box-sizing: border-box;
+}
+
+input,
+template,
+button,
+label {
+  font-family: notosan;
+  font-size: 14px;
+  line-height: 18px;
+  outline: none;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20rem calc(100% - 20rem);
+  grid-template-rows: 56px calc(100vh - 56px);
+}

@@ -1,0 +1,106 @@
+header {
+  height: 56px;
+  grid-column: 2 / -1;
+  box-shadow: 0 0 3px 0 rgba(23, 27, 42, 0.059);
+}
+
+/*
+<header>
+        <div class="header-wrapper">
+
+          <div class="header-left">
+            <div class="header-option"></div>
+            <div class="header-title">
+              <div class="header-text">
+                CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC
+              </div>
+              <div class="header-left-icon"></div>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <div class="header-right-icon"></div>
+            <div class="header-author">
+              <div class="header-author-text">Nguyen Van Manh</div>
+              <div class="header-author-icon"></div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+*/
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header-option {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -847px -35px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translateY(20%);
+  cursor: pointer;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  cursor: pointer;
+}
+
+.header-left-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -1129px -365px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translate(50%, 30%);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: block;
+}
+
+.header-author {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  cursor: pointer;
+}
+
+.header-right-caret {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -1078px -38px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translate(50%, 40%);
+  cursor: pointer;
+}
+
+.header-right-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -788px -30px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  margin-right: 24px;
+}

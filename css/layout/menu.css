@@ -1,0 +1,127 @@
+menu {
+  background-color: #041434;
+  width: 20rem;
+  height: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  padding: 20px 12px;
+}
+
+.menu-title {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  padding: 1rem 12px;
+  margin-bottom: 2rem;
+}
+
+.menu-title-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -424px -86px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.img-icon {
+  display: block;
+  width: 96px;
+  height: 32px;
+}
+
+.menu-item {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 1rem 12px;
+  border-radius: 6px;
+  height: 44px;
+  transition: background-color 0.25s linear;
+}
+
+.menu-list-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-item:hover {
+  background-color: #27395e;
+}
+
+li:nth-child(1) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -33px -1630px;
+}
+
+li:nth-child(2) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+}
+
+li:nth-child(3) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+}
+
+li:nth-child(4) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+}
+
+li:nth-child(5) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -206px -1631px;
+}
+
+li:nth-child(6) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+}
+
+li:nth-child(7) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+}
+
+li:nth-child(8) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+}
+
+li:nth-child(9) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -382px -1632px;
+}
+
+li:nth-child(10) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -427px -1634px;
+}
+
+li:nth-child(11) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+}
+
+li:nth-child(12) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+}
+
+li:nth-child(13) .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -382px -1664px;
+}
+
+li:last-child .menu-list-icon {
+  background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -552px -1636px;
+}
+
+.menu-list ul li {
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 4px;
+}
