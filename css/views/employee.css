@@ -1,6 +1,7 @@
 @import url("../base/reset.css");
 @import url("../base/variables.css");
 @import url("../components/button.css");
+@import url("../components/popup.css");
 @import url("../components/combobox.css");
 @import url("../components/table.css");
 @import url("../components/input.css");
@@ -62,4 +63,24 @@ a {
   display: grid;
   grid-template-columns: 20rem calc(100% - 20rem);
   grid-template-rows: 56px calc(100vh - 56px);
+}
+
+.required {
+  color: #ff3939;
+}
+
+.form-row-flex {
+  display: flex;
+}
+
+.form-col-gap {
+  column-gap: 8px;
+}
+
+.form-row + .form-row {
+  margin-top: 14px;
+}
+
+.flex-1 {
+  flex: 1;
 }

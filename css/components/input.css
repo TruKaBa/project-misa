@@ -1,5 +1,6 @@
 input {
   display: inline-block;
+  box-sizing: border-box;
   height: 36px;
   padding: 0 12px;
   border: 1px solid #e0e0e0;
@@ -51,5 +52,15 @@ input:focus {
 }
 
 .input--icon:hover {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 100%;
+}
+
+
+

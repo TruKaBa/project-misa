@@ -1,23 +1,30 @@
 .btn {
   height: 36px;
   border-radius: 4px;
-  padding: 0 1.6rem;
+  padding: 0 1.2rem;
   outline: none;
-  border: 0;
+  border: unset;
   display: block;
   min-width: 80px;
   font-weight: 500;
+  color: #fff;
 }
 
 .btn--primary {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  transition: background-color 0.2s linear;
 }
 
 .btn--secondary {
   color: #1f1f1f;
   background-color: #fff;
   border: 1px solid #e6e6e6;
+  transition: all 0.2s linear;
+}
+
+.btn--secondary:hover {
+  background-color: #f6f6f6;
 }
 
 .btn--refresh {
@@ -29,4 +36,8 @@
 
 .btn--refresh:hover {
   background: url("../assets/img/Sprites.64af8f61.svg") no-repeat -1098px -90px;
+}
+
+.btn--primary:hover {
+  background-color: var(--btn-hover-color) !important;
 }
