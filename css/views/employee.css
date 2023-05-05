@@ -84,3 +84,16 @@ a {
 .flex-1 {
   flex: 1;
 }
+
+.dblock {
+  display: block;
+}
+
+.input--error {
+  border-color: red !important;
+}
+
+.error-info {
+  color: red;
+  display: none;
+}
